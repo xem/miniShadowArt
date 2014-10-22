@@ -1,1 +1,1 @@
-http://xem.github.io/minishadowArt
+http://xem.github.io/miniShadowArt
