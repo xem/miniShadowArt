@@ -1,7 +1,6 @@
 <body style="text-align:center;vertical-align:middle;font-family:arial">
 <a href=//github.com/xem/miniShadowArt><img style="position:absolute;top:0;right:0;border:0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 <br>
-<br>
 <h1>MiniShadowArt</h1>
 <h2>A tool converting your images in CSS box-shadow pixel-art in less than 512b!</h2>
 <h3>(Don't use too big images, it will crash your browser)</h3>
@@ -10,7 +9,7 @@
 Source code:
 <br>
 <br>
-<pre style="background:#ddd;width:700px;text-align:left;margin:0 auto;padding:10px">&lt;html ondrop='with(new FileReader)readAsDataURL(event.dataTransfer.files[0]),onload=function(){
+<pre style="background:#ddd;width:670px;text-align:left;margin:0 auto;padding:10px;font:normal 12px courier">&lt;html ondrop='with(new FileReader)readAsDataURL(event.dataTransfer.files[0]),onload=function(){
 I=new Image;I.src=result;w=c.width=I.width;h=c.height=I.height;a="\46lt;div style=\47width:1px;
 height:1px;box-shadow:";z=c.getContext("2d");z.drawImage(I,0,0);D=z.getImageData(0,0,w,h).data;
 for(i=0;i&lt;h;i++)for(j=0;j&lt;w;j++)t=4*(i*w+j),a+=(t?",":"")+j+"px "+(i+1)+"px 0#"+(1e7+((D[t]&lt;&lt;16
@@ -26,10 +25,13 @@ for(i=0;i&lt;h;i++)for(j=0;j&lt;w;j++)t=4*(i*w+j),a+=(t?",":"")+j+"px "+(i+1)+"p
 <br>
 Demo:
 <br>
+(Drop an image from your desktop)
+<br>
 <br>
 <iframe src=index.min.html width=800 height=300></iframe>
 <br>
 <br>
+<a href=index.min.html>Fullscreen</a> - 
 <a href=index.min.html download>Download</a>
 <br>
 <br>
